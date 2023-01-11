@@ -706,7 +706,7 @@ err0:
   ng_free(t);
   
   NGRTOS_ERROR("Failed to create task %s.\n", name);
-	return NULL;
+  return NULL;
 }
 
 __STATIC_FORCEINLINE void __task_free(ng_task_s *t)
