@@ -24,8 +24,8 @@
  * IN THE SOFTWARE.
  *
  *************************************************************************************
- *                              https://www.ngRTOS.org
- *                              https://github.com/ngRTOS
+ *                              
+ *                              https://github.com/lst1975/ngRTOS
  **************************************************************************************
  */
 #include "ng_arch.h"
@@ -72,13 +72,13 @@ struct ng_sched {
 };
 
 #if configENABLE_TASK_STATS
-struct ng_task_state {
+struct ng_task_stat {
   ngrtos_couter_t ncalls;
   ngrtos_couter_t npends;
   ngrtos_couter_t nwaits;
   ngrtos_couter_t ngiveups;
 };
-typedef struct ng_task_state ng_task_state_s;
+typedef struct ng_task_stat ng_task_stat_s;
 #endif
 
 struct ng_context{
@@ -93,7 +93,7 @@ struct ng_context{
   void      *_arg;
   ng_tq_s   *_tq;
 #if configENABLE_TASK_STATS
-  ng_task_state_s  _stat;
+  ng_task_stat_s  _stat;
 #endif
   ng_list_s  _tq_entry;
 };
@@ -700,7 +700,7 @@ ngrtos_task_create(ng_task_init_s *_init)
   return t;
   
 err1:
-  if (_sp == NULL)
+  if (_sp != NULL)
     ng_free(sp);
 err0:
   ng_free(t);
