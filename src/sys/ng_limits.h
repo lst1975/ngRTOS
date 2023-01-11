@@ -1,0 +1,59 @@
+/*************************************************************************************
+ *                               ngRTOS Kernel V2.0.1
+ * Copyright (C) 2022 Songtao Liu, 980680431@qq.com.  All Rights Reserved.
+ **************************************************************************************
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * THE ABOVE COPYRIGHT NOTICE AND THIS PERMISSION NOTICE SHALL BE INCLUDED IN ALL
+ * COPIES OR SUBSTANTIAL PORTIONS OF THE SOFTWARE. WHAT'S MORE, A DECLARATION OF 
+ * NGRTOS MUST BE DISPLAYED IN THE FINAL SOFTWARE OR PRODUCT RELEASE. NGRTOS HAS 
+ * NOT ANY LIMITATION OF CONTRIBUTIONS TO IT, WITHOUT ANY LIMITATION OF CODING STYLE, 
+ * DRIVERS, CORE, APPLICATIONS, LIBRARIES, TOOLS, AND ETC. ANY LICENSE IS PERMITTED 
+ * UNDER THE ABOVE LICENSE. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF 
+ * ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO 
+ * EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES 
+ * OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+ * IN THE SOFTWARE.
+ *
+ *************************************************************************************
+ *                              https://www.ngRTOS.org
+ *                              https://github.com/ngRTOS
+ **************************************************************************************
+ */
+ 
+#ifndef __ngRTOS_LIMITS_H__
+#define __ngRTOS_LIMITS_H__
+
+#ifdef __cplusplus
+    extern "C" {
+#endif
+
+#define ng_USHRT_MAX    ((unsigned short)~0U)
+#define ng_SHRT_MAX     ((short)(ng_USHRT_MAX >> 1))
+#define ng_SHRT_MIN     ((short)(-ng_SHRT_MAX - 1))
+#define ng_INT_MAX      ((int)(~0U >> 1))
+#define ng_INT_MIN      (-ng_INT_MAX - 1)
+#define ng_UINT_MAX     (~0U)
+#define ng_LONG_MAX     ((long)(~0UL >> 1))
+#define ng_LONG_MIN     (-ng_LONG_MAX - 1)
+#define ng_ULONG_MAX    (~0UL)
+#define ng_LLONG_MAX    ((long long)(~0ULL >> 1))
+#define ng_LLONG_MIN    (-ng_LLONG_MAX - 1)
+#define ng_ULLONG_MAX   (~0ULL)
+#define ng_UINTPTR_MAX  ng_ULONG_MAX
+#define ng_UINT32_MAX   ng_UINT_MAX
+#define ng_TIMET_MAX    ng_UINT_MAX
+
+#ifdef __cplusplus
+    }
+#endif
+
+#endif /* __NGRTOS_ASM_H__ */
