@@ -1,5 +1,5 @@
 # ngRTOS
-A tiny Realtime-Operating-System (STM32 devices)
+A Tiny Realtime-Operating-System (STM32 devices)
 
 Under construction ...
 
