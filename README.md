@@ -1,5 +1,6 @@
-# ngRTOS - next generation realtime operation system
+# ngRTOS
 A Tiny Realtime-Operating-System (STM32 devices)
+ngRTOS = Next Generation Realtime Operation System
 
 # Core Files
 src/ng_task.c
