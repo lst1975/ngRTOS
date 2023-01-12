@@ -3,8 +3,12 @@ A Tiny Realtime-Operating-System (STM32 devices)
 
 # Core Files
 src/ng_task.c
-
 src/ng_channel.c
+
+# Memeory Management
+1. PEAK on TLSF
+2. TLSF
+3. PEAK
 
 # Project Status
 Under construction ...
