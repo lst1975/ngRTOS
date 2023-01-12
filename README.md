@@ -7,9 +7,11 @@ src/ng_task.c
 src/ng_channel.c
 
 # Memeory
-1. PEAK on TLSF
-2. TLSF
-3. PEAK
+1. TLSF
+2. PEAK (Support Memory Lead Detect, need gracefully shutdown the system)
+3. PEAK on TLSF (Support Memory Lead Detect, need gracefully shutdown the system)
+
+Our suggestion is to use CHOICE 3.
 
 # Project Status
 Under construction ...
