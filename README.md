@@ -6,7 +6,7 @@ src/ng_task.c
 
 src/ng_channel.c
 
-# Memeory Management
+# Memeory
 1. PEAK on TLSF
 2. TLSF
 3. PEAK
