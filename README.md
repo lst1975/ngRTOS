@@ -1,4 +1,4 @@
-# ngRTOS
+# ngRTOS - next generation realtime operation system
 A Tiny Realtime-Operating-System (STM32 devices)
 
 # Core Files
@@ -13,7 +13,7 @@ src/ng_channel.c
 
    [Our suggestion is to use CHOICE 3.]
 
-# Project Status
+# Status
 Under construction ...
 
 ng_time.c is unfinished ...
