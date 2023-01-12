@@ -8,8 +8,8 @@ src/ng_channel.c
 
 # Memeory
 1. TLSF
-2. PEAK (Support Memory Lead Detect, need gracefully shutdown the system)
-3. PEAK on TLSF (Support Memory Lead Detect, need gracefully shutdown the system)
+2. PEAK (Support Memory Leak Detect, need gracefully shutdown the system)
+3. PEAK on TLSF (Support Memory Leak Detect, need gracefully shutdown the system)
 
    [Our suggestion is to use CHOICE 3.]
 
