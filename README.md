@@ -11,7 +11,7 @@ src/ng_channel.c
 2. PEAK (Support Memory Lead Detect, need gracefully shutdown the system)
 3. PEAK on TLSF (Support Memory Lead Detect, need gracefully shutdown the system)
 
-   Our suggestion is to use CHOICE 3.
+   [Our suggestion is to use CHOICE 3.]
 
 # Project Status
 Under construction ...
