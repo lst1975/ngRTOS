@@ -8,7 +8,7 @@ src/ng_task.c
 
 src/ng_channel.c
 
-# Memeory
+# Memory
 1. TLSF (https://github.com/mattconte/tlsf)
 2. PEAK (Support Memory Leak Detect, need gracefully shutdown the system)
 3. PEAK on TLSF (Support Memory Leak Detect, need gracefully shutdown the system)
