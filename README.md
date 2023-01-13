@@ -4,9 +4,9 @@ A Tiny Realtime-Operating-System (STM32 devices)
 ngRTOS = Next Generation Realtime Operating System
 
 # Core Files
-src/ng_task.c
+src/sys/ng_task.c
 
-src/ng_channel.c
+src/sys/ng_channel.c
 
 # Memory
 1. TLSF (https://github.com/mattconte/tlsf)
