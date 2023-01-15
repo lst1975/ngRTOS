@@ -30,3 +30,5 @@ ng_time.c is unfinished ...
 # Code
 
 ![code](https://user-images.githubusercontent.com/28725147/211888784-c906d292-ad1c-4154-9528-534f121c43e6.png)
+
+![image](https://user-images.githubusercontent.com/28725147/212552325-978f46df-7dea-4188-a21a-a215a04d89f3.png)
