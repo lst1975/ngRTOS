@@ -1151,7 +1151,8 @@ void ngrtos_scheder_deinit(void)
   NGRTOS_EVENT("Starting scheduler deinit.\n");
 #if !configENABLE_SMALL_KERNEL
 #else
-  ng_free(ng_tasks);
+  if (ng_tasks != NULL)
+    ng_free(ng_tasks);
 #endif
   NGRTOS_EVENT("Scheduler deinit OK.\n");
 }
