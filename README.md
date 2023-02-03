@@ -1,7 +1,10 @@
 # ngRTOS
-A Tiny Realtime-Operating-System (STM32 devices)
+A Tiny Realtime-Operating-System (STM32 devices); ngRTOS = Next Generation Realtime Operating System.
 
-ngRTOS = Next Generation Realtime Operating System
+ngRTOS is a real-time operating system designed to support embedded and IoT applications. ngRTOS provides real-time reliability for embedded devices with flexible scheduling, low latency, and small memory footprint. It supports multitasking, provides multiple functions such as queuing, semaphores, secure task management, multi-priority task scheduling, task preemption, and time-slice polling, and provides a variety of common business applications to help developers build efficient and reliable embedded solutions.
+
+# License
+ULB1Dv1: Unlimited License but for one Declaration.
 
 # Core Files
 src/sys/ng_task.c
